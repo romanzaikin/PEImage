@@ -7,12 +7,6 @@ from PIL import PngImagePlugin
 from PIL import ImageFile
 
 class PEImage(object):
-    """
-        Store and Retrieve PE file inside Image using pixel colors
-        0   -   (255,0,0)
-        1   -   (0,255,0
-    """
-
     def __init__(self, ImageName = None, PEName = None):
         self.data = []
         self.PEName = PEName
