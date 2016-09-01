@@ -14,14 +14,14 @@ The file you want to hide inside the image will be parsed to binary 0 and 1, the
 Description
 ==========================
 
-Put exe into Image:
+<b>Put exe into Image:<b/>
 note: the file "Test.png" will be the name of the new created file.
 
 engine = PEImage("Test.png","sleeptest.exe")
 
 engine.FileToImage()
 
-Get the exe from the image
+<b>Get the exe from the image</b>
 note: you will be prompt for the file name input.
 
 engine = PEImage("Test.png")
