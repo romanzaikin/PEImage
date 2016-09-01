@@ -1,11 +1,3 @@
-    ___    ___               _                      __ _          
-   | _ \  | __|     o O O   (_)    _ __    __ _    / _` |   ___   
-   |  _/  | _|     o        | |   | '  \  / _` |   \__, |  / -_)  
-  _|_|_   |___|   TS__[O]  _|_|_  |_|_|_| \__,_|   |___/   \___|  
-_| """ |_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""| 
-"`-0-0-'"`-0-0-'./o--000'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
-
-
 ==========================
 About    
 ==========================
@@ -15,21 +7,25 @@ This project shows you an interesting way to hide executable inside an image usi
 The file you want to hide inside the image will be parsed to binary 0 and 1, then it will be placed into colors with the following logic:
 
 0 –	 (0,255,0) 	GREEN
+
 1 –	 (255,0,0)	RED
 
 ==========================
 Description
 ==========================
 
->>> Put exe into Image:
+Put exe into Image:
 note: the file "Test.png" will be the name of the new created file.
 
 engine = PEImage("Test.png","sleeptest.exe")
+
 engine.FileToImage()
 
->>> Get the exe from the image
+Get the exe from the image
 note: you will be prompt for the file name input.
+
 engine = PEImage("Test.png")
+
 engine.ImageToFile()
 
 
