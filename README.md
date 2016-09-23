@@ -14,12 +14,14 @@ Description
 ==========================
 
 <b>Put exe into Image:</b>
+
 note: the file "Test.png" will be the name of the new created file.
 ```
 engine = PEImage("Test.png","sleeptest.exe")
 engine.FileToImage()
 ```
 <b>Get the exe from the image</b>
+
 note: you will be prompt for the file name input.
 ```
 engine = PEImage("Test.png")
