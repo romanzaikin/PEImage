@@ -9,9 +9,7 @@ The file you want to hide inside the image will be parsed to binary 0 and 1, the
 0 –	 (0,255,0) 	GREEN
 1 –	 (255,0,0)	RED
 ```
-
-
-
+![alt tag](https://github.com/romanzaikin/PEImage/blob/master/Test.png)
 
 ==========================
 Description
@@ -31,5 +29,3 @@ note: you will be prompt for the file name input.
 engine = PEImage("Test.png")
 engine.ImageToFile()
 ```
-
-
